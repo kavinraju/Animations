@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeBounds
+        android:duration="250">
+        <targets>
+        <target android:targetId="@id/ivRecipe"/>
+        </targets>
+    </changeBounds>
+
+    <fade android:startDelay="300" android:duration="250">
+    <targets>
+        <target android:targetId="@id/tvRecipeshortDesp"/>
+        <target android:targetId="@id/tvRecipeTitle"/>
+        <target android:targetId="@+id/imgBtn"/>
+    </targets>
+    </fade>
+</transitionSet>
